@@ -7,8 +7,8 @@ Instead of installing packages on your computer you can access everything you ne
 # Usage
 
 ```bash
-docker build -t zsh-img .
-docker run --rm -it -h alpine --name zsh-shell /bin/zsh
+docker build -t dev-container-img .
+docker run --rm -it -h alpine --name dev-container dev-container-img /bin/zsh
 ```
 
 
